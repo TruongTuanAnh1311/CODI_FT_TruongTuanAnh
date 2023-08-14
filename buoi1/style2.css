@@ -1,0 +1,30 @@
+.container{
+    width: 40%;
+    margin: 30px auto;
+}
+.div1{
+    width: 100%;
+}
+.div1:first-child{
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
+.div1:first-child>.col:first-child{
+    width: 100%;
+}
+.div1:first-child>.col:first-child>input{
+    font-size: 30px;
+    width: 100%;
+    border-radius: 7px;
+    height: 37px;
+
+}
+.div1:first-child>.col1:last-child>button{
+    width: 50%;
+    margin-left: 10px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+}
